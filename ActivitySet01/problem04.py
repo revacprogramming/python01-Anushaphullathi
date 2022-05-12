@@ -1,10 +1,17 @@
 # Conditional Execution
-hrs=input("Enter hours ")
-h=float(hrs)
-rp=input("Enter rate per hour ")
-x=float(rp)
-if float(hrs)<40:
-	print(h*x)
-elif float(hrs)>40:
-	print(40* x + (h-40)*1.5*x)
+score = input("Enter Score between 0.0 and 1.0 : ")
+sr=float(score)
+ 
+if sr >= 0.9 :
+    print("A")
+elif sr>=0.8 :
+    print("B")
+elif sr>=0.7 :
+    print("C")
+elif sr>=0.6 :
+    print("D")
+elif sr<0.6 :
+    print("F")
+else :
+    quit()
 
