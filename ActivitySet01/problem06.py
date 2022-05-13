@@ -7,7 +7,6 @@ while True:
     if num == "done":
         break
     try:
-        #print(num)
         num = int(num)
         if largest is None or largest < num:
             largest = num
