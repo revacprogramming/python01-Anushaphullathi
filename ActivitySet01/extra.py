@@ -1,7 +1,8 @@
-def great(lang) :
-    if lang == 'es' :
-        print('hola')
-    elif lang == 'fr' :
-        print('Bongour')
-    else :
-        print('hello')
+a=12
+x=()
+y=()
+x>>2
+y<<1
+print(x,y)
+
+
