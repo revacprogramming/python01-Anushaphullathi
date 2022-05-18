@@ -12,3 +12,15 @@ for line in fh:
             lst.append(nword)       
 lst.sort()
 print(lst)
+# or
+#fname = input("Enter file name: ")
+#fh = open(fname)
+#lst = list()
+#for line in fh:
+#    words=line.strip().split()
+#    for nword in words:
+ #       if not nword in lst:
+  #          lst.append(nword)       
+#lst.sort()
+#print(lst)
+
