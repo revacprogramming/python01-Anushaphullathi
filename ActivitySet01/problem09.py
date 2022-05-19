@@ -1,5 +1,5 @@
 # Lists
-
+#method-1
 filename = "dataset/romeo.txt"
 fname = input("Enter file name: ")
 fh = open(fname)
@@ -13,6 +13,7 @@ for line in fh:
 lst.sort()
 print(lst)
 # or
+#method-2
 #fname = input("Enter file name: ")
 #fh = open(fname)
 #lst = list()
@@ -23,4 +24,35 @@ print(lst)
   #          lst.append(nword)       
 #lst.sort()
 #print(lst)
+
+#or
+#method-3
+#fname = input("Enter file name: ")
+#fh = open(fname)
+#lst = list()
+#for line in fh:
+ #   words=line.strip().split()
+ #   for nword in words:
+#        if nword in lst:
+ #           continue
+  #      else:
+   #         lst.append(nword)       
+#lst.sort()
+#print(lst)
+
+#or
+#method-4
+#fname = input("Enter file name: ")
+#fh = open(fname)
+#lst = list()
+#for line in fh:
+#    words=line.strip().split()
+#    for nword in words:
+#        if nword in lst:
+#            continue
+#        elif nword not in lst:
+#            lst.append(nword)
+#lst.sort()
+#print(lst)
+
 
