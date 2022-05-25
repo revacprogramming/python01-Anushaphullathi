@@ -2,6 +2,7 @@
 
 def add(a, b):
     c=a+b
+    return c
 
 
 def main():
@@ -10,4 +11,4 @@ def main():
 
     c = add(a, b)
     print(c)
-    main()
+main()
