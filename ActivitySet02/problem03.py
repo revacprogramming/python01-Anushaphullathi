@@ -1,11 +1,15 @@
 
 
 def get_cs():
-    """get string input"""
-
-
+    a=input()
+    return(a)
+  
 def cs_to_lot(cs):
-    """convert connected string to list of strings"""
+    l=[]
+    cs=cs.split(";")
+    for i in cs:
+        l.append(tuple(i.split("=")))
+    return(l)
 
 
 def main():
@@ -17,3 +21,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+#python ActivitySet02/problem03.py
+#system=s;database=d;username=u;password=p
