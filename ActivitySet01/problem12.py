@@ -7,6 +7,6 @@ c=re.findall(["[0-9]+",b.read()])
 for i in c:
     print(sum(int(c)))
 
-#short form
+#short hand form
 #import re
 #print(sum([int(i) for i in re.findall("[0-9]+",open(name).read())]))
