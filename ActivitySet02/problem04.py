@@ -6,11 +6,18 @@ def get_cs():
 
 
 def cs_to_lot(cs):
-    """convert connected string to list of strings"""
-
+    l=[]
+    cs=cs.split(";")
+    for i in cs:
+        l.append(tuple(i.split("=")))
+    return(l)
 
 def lot_to_cs(lot):
-    """convert list of strings to connected string"""
+    lt=[('system','s'),(database','d'),('username','u') 
+    ('password','p')]
+    lot=[item for t in lt for item in t]
+    k=';'.join(map(str,lot))
+    return(k)
 
 
 def main():
@@ -25,3 +32,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+#python ActivitySet02/problem04.py
+#system=s;database=d;username=u;passwd=p
