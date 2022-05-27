@@ -13,8 +13,7 @@ def cs_to_lot(cs):
     return(l)
 
 def lot_to_cs(lot):
-    lt=[('system','s'),(database','d'),('username','u') 
-    ('password','p')]
+  
     lot=[item for t in lt for item in t]
     k=';'.join(map(str,lot))
     return(k)
