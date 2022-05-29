@@ -14,7 +14,6 @@ def cs_to_lot(cs):
 
 def main():
     cs = get_cs()
-
     lot = cs_to_lot(cs)
     print(lot)
 

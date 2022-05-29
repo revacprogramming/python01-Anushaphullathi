@@ -1,5 +1,3 @@
-
-
 def get_cs():
     a=input()
     return(a)
@@ -13,18 +11,11 @@ def cs_to_lot(cs):
     return(l)
 
 def lot_to_cs(lot):
-  
-    lot=[item for t in lt for item in t]
-    k=';'.join(map(str,lot))
-    return(k)
-
-
+    return(";".join([str(i[0]+"="+i[1]) for i in lot]))
 def main():
     cs=get_cs()
-
     lot=cs_to_lot(cs)  # convert connect string to list of tuples
     print(lot)
-
     cs=lot_to_cs(lot)  # convert list of strings to connect string
     print(cs)
 

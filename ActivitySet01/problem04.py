@@ -14,4 +14,3 @@ elif sr<0.6 :
     print("F")
 else :
     quit()
-
