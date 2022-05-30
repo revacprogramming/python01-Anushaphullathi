@@ -1,8 +1,7 @@
 
 
 def add(a, b):
-    c=a+b
-    return(c)
+    return(a+b)
 
 
 def man():

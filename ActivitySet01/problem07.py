@@ -4,5 +4,6 @@ pos=text.find(':')
 #print(pos)
 val=text[pos+5:]
 #print(val)
-dec=float(val)
-print(dec)
+print(float(val))
+#dec=float(val)
+#print(dec)
