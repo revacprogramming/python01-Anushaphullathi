@@ -15,7 +15,7 @@ lst.sort()
 print(lst)
 
 # or
-#method-2
+#method-2/
 
 #fname = input("Enter file name: ")
 #fh = open(fname)
