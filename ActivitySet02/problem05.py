@@ -1,16 +1,17 @@
-
-
 def get_cs():
-    """get string input"""
+    a=input()
+    return a
 
 
 def cs_to_dict(cs):
-    """convert connect string to a dictionary"""
-
+    d={}
+    cs=cs.split(";")
+    for i in cs:
+        d.append(d(i.split("=")))
+    return(d)
 
 def dict_to_cs(d):
-    """convert a dictionary to connect string"""
-
+     return(";".join([str(i[0]+"="+i[1]) for i in lot]))
 
 def main():
     cs = get_cs()
@@ -24,3 +25,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+#python ActivitySet02/problem05.py
+#system=s;database=d;username=u;passwd=p
