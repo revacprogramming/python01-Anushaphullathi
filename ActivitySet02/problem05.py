@@ -1,3 +1,4 @@
+
 def get_cs():
     a=input()
     return a
@@ -6,9 +7,8 @@ def get_cs():
 def cs_to_dict(cs):
     d={}
     cs=cs.split(";")
-    for i in cs:
-        d.append(d(i.split("=")))
-    return(d)
+    my_list=i.split("=")
+    d[my_list[0]]=my_list[1]
 
 def dict_to_cs(d):
      return(";".join([str(i[0]+"="+i[1]) for i in lot]))
